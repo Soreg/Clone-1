@@ -1,0 +1,51 @@
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  color: white;
+}
+
+/*
+  ========================================
+  Fonts
+  ========================================
+*/
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  opacity: 0.7;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover {
+  opacity: 1;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.active a, .navbar {
+  background-color: #0289CD !important;
+}
+
+.active a {
+  border-bottom: 2px solid #fff;
+}
